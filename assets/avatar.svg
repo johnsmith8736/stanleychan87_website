@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ec9b0"/>
+      <stop offset="100%" style="stop-color:#569cd6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="96" fill="url(#bg)" stroke="url(#accent)" stroke-width="3"/>
+
+  <!-- Grid pattern (matrix/terminal aesthetic) -->
+  <g opacity="0.08" stroke="#4ec9b0" stroke-width="0.5">
+    <line x1="20" y1="20" x2="180" y2="20"/>
+    <line x1="20" y1="60" x2="180" y2="60"/>
+    <line x1="20" y1="100" x2="180" y2="100"/>
+    <line x1="20" y1="140" x2="180" y2="140"/>
+    <line x1="20" y1="180" x2="180" y2="180"/>
+    <line x1="20" y1="20" x2="20" y2="180"/>
+    <line x1="60" y1="20" x2="60" y2="180"/>
+    <line x1="100" y1="20" x2="100" y2="180"/>
+    <line x1="140" y1="20" x2="140" y2="180"/>
+    <line x1="180" y1="20" x2="180" y2="180"/>
+  </g>
+
+  <!-- Terminal brackets -->
+  <g fill="none" stroke="#4ec9b0" stroke-width="3" opacity="0.9">
+    <path d="M55 70 L35 100 L55 130" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M145 70 L165 100 L145 130" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Underscore cursor in center -->
+  <line x1="75" y1="107" x2="125" y2="107" stroke="#4ec9b0" stroke-width="4" stroke-linecap="round">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Prompt dollar sign -->
+  <text x="100" y="98" text-anchor="middle" fill="#569cd6" font-family="monospace" font-size="20" font-weight="bold">$</text>
+
+  <!-- Small dots decorating corners -->
+  <circle cx="30" cy="30" r="3" fill="#4ec9b0" opacity="0.5"/>
+  <circle cx="170" cy="30" r="3" fill="#569cd6" opacity="0.5"/>
+  <circle cx="30" cy="170" r="3" fill="#569cd6" opacity="0.5"/>
+  <circle cx="170" cy="170" r="3" fill="#4ec9b0" opacity="0.5"/>
+
+  <!-- Status dot bottom -->
+  <circle cx="100" cy="165" r="4" fill="#4ec9b0" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
