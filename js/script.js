@@ -358,11 +358,11 @@ function renderContact() {
           </div>
         </a>
 
-        <a href="mailto:stanleychan87@users.noreply.github.com" class="contact-item">
+        <a href="mailto:johnsmith874436@gmail.com" class="contact-item">
           <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
           <div>
             <div class="contact-label">Email</div>
-            <div class="contact-value">stanleychan87@users.noreply.github.com</div>
+            <div class="contact-value">johnsmith874436@gmail.com</div>
           </div>
         </a>
 
