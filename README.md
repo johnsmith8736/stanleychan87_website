@@ -2,8 +2,6 @@
 
 > 模仿 [amruth.ai](https://amruth.ai/) 的 VS Code / 终端审美，打造个人作品集网站。
 
-![Preview](preview.png)
-
 ## ✨ 特性
 
 - **VS Code / 终端设计** — 深色主题、左侧文件浏览器、右侧预览区、底部终端模拟器
